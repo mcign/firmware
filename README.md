@@ -5,7 +5,7 @@ This is firmware for a BLE keyless motorcycle ignition that is controlled by a s
 
 The BGM111 module was chosen because it has already been FCC certified, which normally makes it much easier to sell the hardware without violating FCC regulations. However, this project is exempt from the required testing because it is "a digital device utilized exclusively in any transportation vehicle including motor vehicles." The project is now being ported to the nRF51822 chip for several reason:
 
- * It is about 1/3 the cost of a BGM111 module
+ * It is cheaper
  * Cheap generic breakout boards are available
  * Supports open source tools (gcc & make), which have less bugs, more documentation, and better integration with git than Simplicity Studio, which is required for the BGM111
  * An automotive grade (AEC-Q100) drop-in replacement is available (nRF51824), allowing the hardware to be built to automotive standards
